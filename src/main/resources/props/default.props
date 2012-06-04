@@ -1,5 +1,6 @@
-#Adding custom MySQL Database
+# CloudBees MySQL Database
+db.url=jdbc:mysql://DB_HOST/DBNAME
 db.driver=com.mysql.jdbc.Driver
-db.url=jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com/lift_test2
-db.user=lift_admin
-db.password=password
+db.user=DB_USER
+db.pass=DB_PASSWORD
+
