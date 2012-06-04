@@ -1,0 +1,5 @@
+#Adding custom MySQL Database
+db.driver=com.mysql.jdbc.Driver
+db.url=jdbc:mysql://ec2-50-19-213-178.compute-1.amazonaws.com/lift_test2
+db.user=lift_admin
+db.password=password
