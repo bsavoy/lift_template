@@ -19,6 +19,7 @@ import code.model._
  */
 class Boot {
   def boot {
+    DefaultConnectionIdentifier.jndiName = "jdbc/LiftDB"
 
     // Use Lift's Mapper ORM to populate the database
     // you don't need to use Mapper to use Lift... use
