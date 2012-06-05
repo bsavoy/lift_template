@@ -1,0 +1,22 @@
+{
+    "id": "lift-template",
+    "name": "Lift 2.4 Implementation",
+    "source": "https://github.com/bsavoy/lift_template.git",
+    "runtime": {
+        "type": "jboss"
+    },
+    "databases": [
+        {
+            "type": "mysql",
+            "alias": "LiftDB"
+        }
+    ],
+    "build-with-jenkins": {
+        "template": {
+            "type": "maven",
+            "options": {
+		"deploy": "target/*.war"
+            }
+        }
+    }
+}
