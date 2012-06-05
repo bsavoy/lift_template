@@ -1,6 +1,3 @@
-# CloudBees MySQL Database
-db.url=jdbc:mysql://DB_HOST/DBNAME
-db.driver=com.mysql.jdbc.Driver
-db.user=DB_USER
-db.pass=DB_PASSWORD
+# CloudBees Datasource
+db=java:/comp/env/jdbc/LiftDB
 
